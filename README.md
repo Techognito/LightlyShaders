@@ -5,6 +5,9 @@
     - [Ukrainian army](https://bank.gov.ua/en/about/support-the-armed-forces)
     - [Humanitarian aid to Ukraine](https://bank.gov.ua/en/about/humanitarian-aid-to-ukraine)
 
+# This fork is not active
+I have created this fork for contribution back to a-parhom, and to provide testing of LighlyShaders. This fork is not intended for active development or to take over the LighlyShaders product.
+
 # LightlyShaders v3.0
  This is a fork of Luwx's [LightlyShaders](https://github.com/Luwx/LightlyShaders), which in turn is a fork of [ShapeCorners](https://sourceforge.net/projects/shapecorners/).  
 
@@ -23,10 +26,9 @@ You will need qt6, kf6 and kwin development packages.
 # Manual installation
 ```
 git clone https://github.com/a-parhom/LightlyShaders
-
-cd LightlyShaders;
-
-mkdir qt6build; cd qt6build; cmake ../ -DCMAKE_INSTALL_PREFIX=/usr && make && sudo make install
+cd LightlyShaders
+mkdir qt6build; cd qt6build
+cmake ../ -DCMAKE_INSTALL_PREFIX=/usr && make && sudo make install
 ```
 
 ## Note
