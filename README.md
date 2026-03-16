@@ -24,7 +24,7 @@ Plasma >= 6.0.
 You will need qt6, kf6 and kwin development packages.
 
 # Manual installation
-```
+```bash
 git clone https://github.com/a-parhom/LightlyShaders
 cd LightlyShaders
 mkdir qt6build; cd qt6build
