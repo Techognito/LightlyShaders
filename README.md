@@ -25,7 +25,7 @@ You will need qt6, kf6 and kwin development packages.
 
 # Manual installation
 ```bash
-git clone https://github.com/a-parhom/LightlyShaders
+git clone https://github.com/Techognito/LightlyShaders
 cd LightlyShaders
 mkdir qt6build; cd qt6build
 cmake ../ -DCMAKE_INSTALL_PREFIX=/usr && make && sudo make install
